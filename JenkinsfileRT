@@ -47,7 +47,7 @@ bc.build_cmds = [
     "python setup.py develop",
     "pip install -e .[test]",
     "pip install pytest-xdist",
-    "pip install -e 'git+https://github.com/perrygreenfield/astropy.git@newparm_subclass_rebase'
+    "pip install -e "git+https://github.com/perrygreenfield/astropy.git@newparm_subclass_rebase"
 ]
 bc.test_cmds = [
     "pytest -r sx -v -n 30 --bigdata --slow \
